@@ -29,4 +29,5 @@ Route::group(['middleware' => ['auth']],function(){
 	Route::resource('classes','SclassController');	
 	Route::resource('students','StudentController');
 	Route::resource('subjects','SubjectController');
+	Route::resource('academics','AcademicController');
 });
